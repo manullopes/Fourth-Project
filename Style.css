@@ -1,0 +1,455 @@
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+
+  Body {
+    font-family: 'Acme', sans-serif;
+  }
+   /*EXTERNALS FONTS*/
+  
+
+  
+#barra{
+    background-color: #CF5C36;
+    position:static;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+  }
+/* link que ainda não foi acessado */
+a {
+    color: #fff;
+ }
+ /* link que foi visitado */
+ a:visited {
+     color: #fff;
+ }
+ /* quando o ponteiro do mouse passa no link */
+ a:hover {
+     color: #CF5C36;
+ }
+ /* quando o link for selecionado */
+ a:active {
+     color: #fff;
+ }
+
+.body
+{ background-color: #EEE5E9;}
+
+.navbar
+{
+    background: #CF5C36;
+    border-color: #EFC88B;
+    border-width: 3px;
+    border-radius: 1px;
+    margin: 5px auto 0;
+    height: 60px;
+    font-family: 'Signika', sans-serif;    
+    text-align: center;
+    font-size:xx-large;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li
+{
+display: inline-block;
+list-style: none;
+height: 60px;
+line-height: 60px;
+padding: 0 40px;
+text-decoration: none;
+
+}
+
+.navbar li:hover
+{background: #7C7C7C;
+  text-decoration: none; }
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/* Voluntair image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Picinicial.png");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-image1 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Volunteerbanner1.png");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:'Acme', sans-serif;
+    font-size:large;
+  }
+
+  .hero-button
+{
+    background: #CF5C36;
+    border-color: #EFC88B;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 10px auto 0;
+    height: 60px;
+    width: 60%;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-button:hover
+{background: #7C7C7C;
+  text-decoration: none; 
+Color:#CF5C36;
+}
+
+.hero-button{
+    color: white;
+    text-decoration: none;
+
+}
+
+.hero-button1
+{
+display: inline-block;
+list-style: none;
+height: 60px;
+line-height: 60px;
+padding: 0 40px;
+text-decoration: none;
+
+}
+
+.hero-button1:hover
+{background: #7C7C7C;
+  text-decoration: none; 
+Color:#CF5C36;
+}
+
+.hero-button1{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.hero-button2
+{
+    background: #CF5C36;
+    border-color: #EFC88B;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 10px auto 0;
+    height: 50px;
+    width: 35%;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-button2:hover
+{background: #7C7C7C;
+  text-decoration: none; 
+Color:#CF5C36;
+}
+
+.hero-button2{
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 20%;
+    padding: 80px;
+    margin-right:88px;
+    margin: 43px;
+  }
+
+  .column3 {
+    float: left;
+    width: 15%;
+    padding: 80px;
+    margin-right:130px;
+    margin: 50px;
+  }
+
+  
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  .Trtex 
+  {
+    font-family:'Acme', sans-serif;
+      color: #CF5C36;
+      text-align:center;
+      font-size: xx-large;
+      margin-top: 2.5%;
+      text-shadow: -1px -1px 0px #fff,
+    1px 1px 0px #fff,
+    2px 2px 0px #fff; 
+  }
+
+  .Trtex2
+  {
+      font-family: 'Signika', sans-serif;
+      background-color: #CF5C36 ;
+      color:#fff ;
+      text-align:center;
+      font-size: xx-large;
+      margin-top: -15%;
+      
+  }
+
+.button12{
+    background: #CF5C36;
+    border-color: #EFC88B;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 20px auto 0;
+    height: 60px;
+    width: 65%;
+    font-family: 'Signika', sans-serif;    
+    text-align: center;
+    font-size:xx-large;
+    text-decoration: none;
+    color: white;
+    margin: 100px;
+    margin-top: -15%;
+    margin-right: 380px;
+    cursor: pointer;
+    
+    
+}
+.button12:hover
+{background: #7C7C7C;
+color: #CF5C36 }
+.button:active {background-color: #CF5C36;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
+
+.button13{
+    background: #CF5C36;
+    border-color: #EFC88B;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 20px auto 0;
+    height: 40px;
+    width: 60%;
+    font-family: 'Signika', sans-serif;    
+    text-align: center;
+    font-size:xx-large;
+    text-decoration: none;
+    color: white;
+    margin: 110px;
+    margin-top: -15px;
+    margin-right: 200px;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    padding: -20px;
+    
+    
+}
+.button13:hover
+{background: #7C7C7C;
+color: #CF5C36 }
+.button:active {background-color: #CF5C36;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
+
+  /* CONTACT FORM - CONTACT PAGE CSS STYLE */
+
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#CF5C36;
+  font-family: "Acme", sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CF5C36;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CF5C36; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Signika', sans-serif;
+  width: 100%;
+  background:#CF5C36;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#666; } 
+ 
+.footer {
+  background: #CF5C36;
+  font-family: "Signika", sans-serif;
+  font-size: medium;
+  color: white;
+  text-align: center;
+}
+
+/*OUR DOGS COLLUM PICS */
+.column2 {
+  float:left;
+  width: 40%;
+  padding: 60px;
+  margin-right: -60px;
+  margin-left: 125px;
+  margin-bottom: 40px;
+  
+}
+
+.Text1
+  {
+    text-align: center;
+    color:#CF5C36;
+    font-family:'Acme', sans-serif;
+    font-size:xx-large;
+    margin: 40px;
+    
+  }
+
+  .Text2
+  {
+    text-align: justify;
+    color:#CF5C36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    margin: 40px;
+  }
+  
+  /*table */
+  .styled-table {
+    border-collapse: collapse;
+    text-align: center;
+    margin:35px 0;
+    font-size: 0.9em;
+    font-family: "Acme", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CF5C36;
+    min-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+.styled-table thead tr {
+  background-color: #CF5C36;
+  color: #ffffff;
+  text-align: center;
+}
+.styled-table th,
+.styled-table td {
+    padding: 26px 31px;}
+
+    .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+      border-bottom: 4px solid #CF5C36;
+  }
+
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: gray;
+}
+
+.Text3
+  {
+    text-align: center;
+    color:#CF5C36;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 0.9em;;
+    margin: 40px;
+  }
+
+.question
+{
+  color: #CF5C36;
+}
+
+.item
+ {
+   color: #CF5C36;
+ }
+
+ .top-info 
+ {
+   color: #CF5C36;
+ }
